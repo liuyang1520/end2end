@@ -5,8 +5,8 @@ require "bundler/setup"
 require "jekyll"
 
 # Change your GitHub reponame
-GITHUB_REPONAME    = "nandomoreirame/end2end"
-GITHUB_REPO_BRANCH = "gh-pages"
+GITHUB_REPONAME    = "liuyang1520/liuyang1520.github.io"
+GITHUB_REPO_BRANCH = "master"
 
 SOURCE = "source/"
 DEST   = "_site"
