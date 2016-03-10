@@ -33,7 +33,20 @@ extra_js:
 	}
 </style>
 
-A formal copy of my <a href="https://www.dropbox.com/s/9ztrl43x4h3c0rw/YangLiu_Resume_Web.pdf?dl=0" target="_blank">resume</a> is available.
+<script>
+	$(document).ready(function(){
+		$(".toggler").click(function() {$(this).next().slideToggle("fast");}).next().hide();
+	})
+</script>
+
+<p class="toggler"><a> Show the formal resume </a></p>
+<div style="display: block; overflow: hidden;">
+	<a href="https://www.dropbox.com/s/9ztrl43x4h3c0rw/YangLiu_Resume_Web.pdf?dl=0" target="_blank">
+		<img src="https://raw.githubusercontent.com/liuyang1520/end2end/master/images/YangLiu_Resume_Web.jpg" alt="Formal Resume">
+	</a>
+</div>
+
+<!-- <a href="https://www.dropbox.com/s/9ztrl43x4h3c0rw/YangLiu_Resume_Web.pdf?dl=0" target="_blank">Show the formal resume.</a> -->
 
 <section id="cd-timeline" class="cd-container">
 	<div class="cd-timeline-block">
